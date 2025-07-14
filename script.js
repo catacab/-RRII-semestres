@@ -23,7 +23,8 @@ const courses = [
   { code: "RRII401", name: "Régimen Jurídico del Comercio Ext. II", semester: 4, prerequisites: ["RRII302"] },
   { code: "RRII402", name: "Organización del Comercio", semester: 4, prerequisites: ["RRII304"] },
   { code: "RRII403", name: "Historia de las RRII en América", semester: 4, prerequisites: ["RRII202"] },
-  { code: "RRII404", name: "Estadística Aplicada", semester: 4, prerequisites: ["RRII305"] }
+  { code: "RRII404", name: "Estadística Aplicada", semester: 4, prerequisites: ["RRII305"] },
+
   // QUINTO SEMESTRE
   { code: "RRII501", name: "Derecho Internacional Privado I", semester: 5, prerequisites: ["RRII204"] },
   { code: "RRII502", name: "Comercialización Internacional", semester: 5, prerequisites: [] },
@@ -45,7 +46,7 @@ const courses = [
   { code: "RRII704", name: "Cooperación Internacional", semester: 7, prerequisites: ["RRII601"] },
 
   // OCTAVO SEMESTRE
-  { code: "RRII801", name: "Funciones Universitarias: Enseñanza, Inves.", semester: 8, prerequisites: ["RRII505"] },
+  { code: "RRII801", name: "Funciones Universitarias: Enseñanza e Investigación", semester: 8, prerequisites: ["RRII505"] },
   { code: "RRII802", name: "Política Exterior Uruguaya", semester: 8, prerequisites: [] },
   { code: "RRII803", name: "Análisis de Coyuntura Internacional", semester: 8, prerequisites: ["RRII701"] },
   { code: "RRII804", name: "Teoría de las RRII II", semester: 8, prerequisites: ["RRII604"] },
