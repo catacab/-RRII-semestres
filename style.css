@@ -1,0 +1,41 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #fff0f5;
+  color: #333;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  color: #cc007a;
+}
+
+#malla {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 12px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.course {
+  background-color: #ffc0cb;
+  border: 2px solid #cc007a;
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  text-align: center;
+  transition: background-color 0.3s ease;
+}
+
+.course.locked {
+  background-color: #f8d7da;
+  color: #aaa;
+  cursor: not-allowed;
+  opacity: 0.6;
+}
+
+.course.completed {
+  background-color: #cc007a;
+  color: white;
+}
